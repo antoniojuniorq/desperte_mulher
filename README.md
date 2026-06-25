@@ -1,4 +1,4 @@
-# 🌸 Desperte Mulher
+# Desperte Mulher
 
 > **Plataforma de Análise de Risco para Vítimas de Violência Doméstica**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 O **Desperte Mulher** é um aplicativo mobile e web desenvolvido como **Projeto Final de Curso**, baseado na plataforma [despertemulher.org](https://despertemulher.org).
 
@@ -19,21 +19,21 @@ O objetivo é oferecer uma **ferramenta gratuita, anônima e baseada em metodolo
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
-- ✅ **Análise de Risco** baseada no FONAR (Formulário Nacional de Avaliação de Risco — CNJ/CNMP)
-- ✅ **15 perguntas** estruturadas sobre diferentes dimensões da violência
-- ✅ **5 níveis de risco** identificados: Muito Baixo, Baixo, Moderado, Alto e Extremo
-- ✅ **Recomendações personalizadas** de acordo com o resultado
-- ✅ **100% anônimo** — nenhum dado pessoal é exigido
-- ✅ **Contatos de emergência** sempre visíveis (180, 190, Ouvidoria)
-- ✅ **Login do Acolhe** — área restrita para profissionais parceiros
-- ✅ **Cadastro de parceiros** da rede de atendimento
-- ✅ **Redesign visual completo** com identidade moderna e acolhedora
+-  **Análise de Risco** baseada no FONAR (Formulário Nacional de Avaliação de Risco — CNJ/CNMP)
+-  **15 perguntas** estruturadas sobre diferentes dimensões da violência
+-  **5 níveis de risco** identificados: Muito Baixo, Baixo, Moderado, Alto e Extremo
+-  **Recomendações personalizadas** de acordo com o resultado
+-  **100% anônimo** — nenhum dado pessoal é exigido
+-  **Contatos de emergência** sempre visíveis (180, 190, Ouvidoria)
+-  **Login do Acolhe** — área restrita para profissionais parceiros
+-  **Cadastro de parceiros** da rede de atendimento
+-  **Redesign visual completo** com identidade moderna e acolhedora
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 O projeto segue os princípios da **Clean Architecture** com separação clara de responsabilidades:
 
@@ -70,7 +70,7 @@ lib/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 | Token | Valor | Uso |
 |---|---|---|
@@ -86,7 +86,7 @@ lib/
 
 ---
 
-## 📦 Dependências Principais
+## Dependências Principais
 
 | Pacote | Versão | Finalidade |
 |---|---|---|
@@ -100,50 +100,7 @@ lib/
 | `dartz` | ^0.10.1 | Programação funcional (Either) |
 | `shared_preferences` | ^2.2.2 | Armazenamento local |
 
----
-
-## 🚀 Como Rodar o Projeto
-
-### Pré-requisitos
-
-- [Flutter 3.44+](https://flutter.dev/docs/get-started/install)
-- [Android Studio](https://developer.android.com/studio) ou [VS Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
-- Emulador Android ou dispositivo físico
-
-### Instalação
-
-```bash
-# 1. Clone o repositório
-git clone https://github.com/antoniojuniorq/desperte_mulher.git
-
-# 2. Entre na pasta
-cd desperte_mulher
-
-# 3. Instale as dependências
-flutter pub get
-
-# 4. Rode o projeto
-flutter run
-```
-
-### Rodar no Chrome (Web)
-
-```bash
-flutter run -d web-server --web-port 8080
-# Acesse: http://localhost:8080
-```
-
-### Gerar APK
-
-```bash
-flutter build apk --release
-# APK gerado em: build/app/outputs/flutter-apk/app-release.apk
-```
-
----
-
-## 📊 Metodologia — FONAR
+## Metodologia — FONAR
 
 As perguntas são baseadas no **Formulário Nacional de Avaliação de Risco (FONAR)**, estabelecido pela:
 
@@ -163,7 +120,7 @@ Com aplicação da **Metodologia de Análise de Risco Pax (AR Pax)**, desenvolvi
 
 ---
 
-## 🤝 Parceiros e Apoios
+## Parceiros e Apoios
 
 - Ouvidoria da Mulher do Tocantins
 - Casa da Mulher Brasileira — Palmas/TO
@@ -177,7 +134,7 @@ Com aplicação da **Metodologia de Análise de Risco Pax (AR Pax)**, desenvolvi
 
 ---
 
-## 📞 Contatos de Emergência
+## Contatos de Emergência
 
 | Número | Serviço |
 |---|---|
@@ -188,7 +145,7 @@ Com aplicação da **Metodologia de Análise de Risco Pax (AR Pax)**, desenvolvi
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## Desenvolvedor
 
 **Antonio Junior**
 - GitHub: [@antoniojuniorq](https://github.com/antoniojuniorq)
@@ -196,7 +153,7 @@ Com aplicação da **Metodologia de Análise de Risco Pax (AR Pax)**, desenvolvi
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins acadêmicos.  
 O conteúdo das perguntas é baseado no FONAR — documento público do CNJ/CNMP.
