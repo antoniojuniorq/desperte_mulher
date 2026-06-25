@@ -48,9 +48,11 @@ class QuizState {
       maxScore > 0 ? ((totalScore / maxScore) * 100).round() : 0;
 }
 
-class QuizController extends StateNotifier<QuizState> {
-  QuizController() : super(const QuizState()) {
-    _loadQuestions();
+class QuizController extends Notifier<QuizState> {
+  @override
+  QuizState build() {
+    Future.microtask(() => _loadQuestions());
+    return const QuizState();
   }
 
   void _loadQuestions() {
@@ -76,6 +78,4 @@ class QuizController extends StateNotifier<QuizState> {
 }
 
 final quizControllerProvider =
-    StateNotifierProvider<QuizController, QuizState>(
-  (_) => QuizController(),
-);
+NotifierProvider<QuizController, QuizState>(QuizController.new);
